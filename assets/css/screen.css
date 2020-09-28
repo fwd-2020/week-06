@@ -7,3 +7,13 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
+
+/* DRY: Don't Repeat Yourself */
+
+html {
+  color: #666;
+  background: #311;
+  font-size: 22px;
+}
+h1 { color: green; }
+#about-page h1 { color: pink; }

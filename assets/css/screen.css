@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import url('//basehold.it/25');
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -16,8 +19,39 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 *  - Almost always mobile-first styles
 */
 
+/*
+  Setting type according to a 3:4 (Major Third) Modular Scale:
+  https://www.modularscale.com/?20&px&1.333
+*/
 
+/*
+* A note about em values and context:
+* WHENEVER you change a `font-size` property, you have
+* ALREADY changed your context for computing em values.
+*/
 
+html {
+  font-family: 'Crimson Text', 'Hoefler Text', Georgia, 'Times New Roman', Times, Roman, serif;
+  font-size: 1.25em; /* 20 / 16 = 1.25 */
+  line-height: 1.25em; /* 25 / 20 = 1.25 */
+  padding: 25px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.7769em; /* 35.538 / 20 = 1.7769 */ /* Two steps up modular scale */
+  line-height: 1.4069446789em; /* 50 / 35.538 1.4069446789 */
+}
+h2 {
+  padding-top: 25px;
+  font-weight: 600;
+  color: purple;
+}
+p {
+}
+p + p {
+  text-indent: 25px;
+}
 
 /* Layout Styles */
 /*

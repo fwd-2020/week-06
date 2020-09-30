@@ -84,3 +84,27 @@ p + p {
 *    consist of class selectors (.active, .hidden, .featured)
 *
 */
+
+@media screen and (min-width: 490px) {
+  html {
+    padding: 25px 15% 25px 15%; /* 25 / 490 = 0.05102040816 */
+  }
+  h1 {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 620px) {
+  html {
+    padding: 100px 25% 25px 25%; /* TRouBLe */
+  }
+  h1 {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 885px) {
+  html {
+    font-size: 1.4375em; /* 23 / 16 = */
+  }
+}
